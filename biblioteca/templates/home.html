@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django APP</h1>
+        <p>
+            Welcome to your task planner.
+            Here you can organize your time, with this agile methodology you will notice the difference.
+            Manage your time and fulfill all work tasks efficiently, effectively and responsibly.
+            This tool is developed by the IDAM company, you can rest easy because we provide you with support at all times and since
+            it is developed in Django, your data will be safe and available at all times and from anywhere in the world with
+            Internet access.
+            <p class="display-6 text-center">Enjoy it!</p>
+        </p>
+
+        <div class="text-center">
+            <a class="btn btn-dark" href="/signin/">
+                Signin
+            </a>
+
+            <a class="btn btn-dark" href="/signup/">
+                Signup
+            </a>  
+        </div>
+    </section>
+</main>
+{% endblock %}
