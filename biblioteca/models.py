@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-class Task(models.Model):
+class Task(models.Model):                         #Formulario propio, se utilizan algunos campos haciendolos visibles.
     title = models.CharField(max_length=100)
     description = models.TextField(blank=True)
     created = models.DateTimeField(auto_now_add=True)

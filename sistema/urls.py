@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from biblioteca import views
 
+#Se crean todas las rutas seguras para navegar por la apliacaión y acceder a cada una de las vistas diseñadas.
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),

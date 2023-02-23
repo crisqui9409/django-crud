@@ -22,7 +22,9 @@
                     <li class="nav-item">
                         <a href="/" class="nav-link active"> Home </a>
                     </li>
-                    
+
+                    <!-- Si el usuario esta autenticado, se crea la barra para navegar con los links de cada una de las vistas y se deciden-->
+                    <!-- cuales serán visibles cuando el usuario se autentique y cuales estan disponibles en el Home-->
                     {% if user.is_authenticated %}
                         <li class="nav-item">
                             <a href="/tasks" class="nav-link active"> Tasks Pendig </a>
